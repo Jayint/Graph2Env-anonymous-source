@@ -78,16 +78,8 @@ def main() -> int:
     args = p.parse_args()
     if args.command_timeout < 1:
         p.error("--command-timeout must be positive")
-    key = (
-        os.getenv("OPENROUTER_API_KEY")
-        or os.getenv("MINIMAX_API_KEY")
-        or os.getenv("OPENAI_API_KEY")
-    )
-    base = (
-        os.getenv("OPENROUTER_API_BASE")
-        or os.getenv("MINIMAX_API_BASE")
-        or os.getenv("OPENAI_API_BASE")
-    )
+    key = os.getenv("OPENAI_API_KEY")
+    base = os.getenv("OPENAI_API_BASE")
     if not key:
         print("ERROR: missing LLM API key", file=sys.stderr)
         return 2

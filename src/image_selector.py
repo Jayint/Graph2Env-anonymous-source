@@ -8,7 +8,6 @@ from typing import List, Dict, Optional, Tuple
 from openai import OpenAI
 import json
 
-from src.constants import DEFAULT_LLM_MODEL
 from src.language_handlers import (
     LanguageRequirement,
     LanguageHandler, 
@@ -166,7 +165,7 @@ class ImageSelector:
     MAX_DOCS_CHARS = 24000
     MAX_FILE_SNIPPET_CHARS = 6000
     
-    def __init__(self, client: OpenAI, model: str = DEFAULT_LLM_MODEL):
+    def __init__(self, client: OpenAI, model: str):
         self.client = client
         self.model = model
         self._log_dir: Optional[str] = None

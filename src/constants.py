@@ -1,2 +1,1 @@
-DEFAULT_LLM_MODEL = "MiniMax-M2.7-highspeed"
 DEFAULT_MEMORY_EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"

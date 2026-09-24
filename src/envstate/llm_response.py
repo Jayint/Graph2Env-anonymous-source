@@ -74,8 +74,7 @@ def json_response_format_kwargs(model: str) -> dict[str, Any]:
 def strip_reasoning_markup(text: str | None) -> str:
     """Remove ``<think>...</think>`` reasoning markup leaked into message content.
 
-    Handles two cases produced by reasoning models (e.g. MiniMax M2.7 via
-    OpenRouter):
+    Handles two cases produced by reasoning models:
 
     * **Complete blocks** – ``<think>...</think>`` anywhere in the text
       (including multiple occurrences, ``re.DOTALL``).
@@ -122,8 +121,8 @@ def strip_reasoning_markup(text: str | None) -> str:
 def response_text(response: Any) -> str:
     """Return the assistant message text from an OpenAI-compatible chat completion.
 
-    Prefers the standard ``choices[0].message.content``. Reasoning models such as
-    MiniMax via OpenRouter often return ``content=None``/empty and put the actual
+    Prefers the standard ``choices[0].message.content``. Some reasoning models
+    return ``content=None``/empty and put the actual
     text in a separate ``reasoning`` field (either as a message attribute or under
     ``model_extra``); this helper falls back to that field so the parser still sees
     the action. Returns ``""`` if no usable text is found or the response shape is
