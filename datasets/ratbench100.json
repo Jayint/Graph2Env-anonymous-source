@@ -1,0 +1,502 @@
+[
+  {
+    "full_name": "tinygrad/tinygrad",
+    "commit": "96b94bbf1d86203076e47b60e2dadc260f4caa0e",
+    "test_count": 5064
+  },
+  {
+    "full_name": "PostHog/posthog",
+    "commit": "682044c77671509a4cbe30b5adfe352678e5a332",
+    "test_count": 52787
+  },
+  {
+    "full_name": "mlflow/mlflow",
+    "commit": "6dcba5418220557ca2256ac4252cb6b58aad89b3",
+    "test_count": 12860
+  },
+  {
+    "full_name": "polarsource/polar",
+    "commit": "97e9430901a4197876318672cdd4fae99fc49a2b",
+    "test_count": 4713
+  },
+  {
+    "full_name": "unit8co/darts",
+    "commit": "4d5a9a81166a087ad671df766b8f3c0a584df04a",
+    "test_count": 1521
+  },
+  {
+    "full_name": "Qiskit/qiskit",
+    "commit": "655dfbbdf359ce9e2588f736131f7dd567ef6def",
+    "test_count": 7474
+  },
+  {
+    "full_name": "feast-dev/feast",
+    "commit": "f296d4ba14c5d512429219b2b7845673e0fe524d",
+    "test_count": 2582
+  },
+  {
+    "full_name": "Azure/azure-cli",
+    "commit": "889dcca377e61d8df0e5920069e0602cb6c0bb17",
+    "test_count": 5701
+  },
+  {
+    "full_name": "baserow/baserow",
+    "commit": "0621bcde8f27cc08765147d19e20c42611de51fa",
+    "test_count": 8153
+  },
+  {
+    "full_name": "pretix/pretix",
+    "commit": "943b319557c1ebcd6af0c192b1a12260f8ca7e1a",
+    "test_count": 3681
+  },
+  {
+    "full_name": "Checkmk/checkmk",
+    "commit": "a92883fd5653abb36e0866777777ce3a98c79ff1",
+    "test_count": 13807
+  },
+  {
+    "full_name": "GoogleCloudPlatform/PerfKitBenchmarker",
+    "commit": "bd08f2d554778bd908182b5d59069bb9f764306a",
+    "test_count": 2246
+  },
+  {
+    "full_name": "ArchipelagoMW/Archipelago",
+    "commit": "e6e0bc30420d13085f6f86b29ffa7e1594a8c46a",
+    "test_count": 776
+  },
+  {
+    "full_name": "mozilla/addons-server",
+    "commit": "6ff48bc803ba4f9e8a0e7ace9d0ad88f8e8292ad",
+    "test_count": 6809
+  },
+  {
+    "full_name": "aiidateam/aiida-core",
+    "commit": "9cff5ffee0278ff4ac9b37b3dfa4ea443ec5a21d",
+    "test_count": 2698
+  },
+  {
+    "full_name": "OpenCTI-Platform/connectors",
+    "commit": "0de8b827849a5357746cd0656ddf366bdeaeab8f",
+    "test_count": 6742
+  },
+  {
+    "full_name": "frappe/press",
+    "commit": "73a2a4117e16ec70eb18ee360c1f7db4ceb19508",
+    "test_count": 846
+  },
+  {
+    "full_name": "xuwei95/ezdata",
+    "commit": "97243ea00fac6a091eb9342bbb4f43ba560426b6",
+    "test_count": 311
+  },
+  {
+    "full_name": "tgoai/tgo",
+    "commit": "995da4577f6f91edb87d0f56fc9ea4c129f1a4eb",
+    "test_count": 102
+  },
+  {
+    "full_name": "wecode-ai/Wegent",
+    "commit": "f296d38818500b5250032c5dd3fea7472022da0e",
+    "test_count": 5005
+  },
+  {
+    "full_name": "fastapi/typer",
+    "commit": "7fb978fbf44c776ca7d9441b47c5e64b00740b40",
+    "test_count": 955
+  },
+  {
+    "full_name": "pre-commit/pre-commit",
+    "commit": "1553b465fd7ea42321ae0d04d1b41e706b89ae45",
+    "test_count": 679
+  },
+  {
+    "full_name": "mvt-project/mvt",
+    "commit": "f5b0a3cd914ef3e924d3c185e6e92d3878b28380",
+    "test_count": 164
+  },
+  {
+    "full_name": "BeehiveInnovations/pal-mcp-server",
+    "commit": "7afc7c1cc96e23992c8f105f960132c657883bb1",
+    "test_count": 954
+  },
+  {
+    "full_name": "rq/rq",
+    "commit": "eacec8ff910994bd472e7cc0279ca041803b86e9",
+    "test_count": 690
+  },
+  {
+    "full_name": "D4Vinci/Scrapling",
+    "commit": "8e7bc99ebc05f0e38f7c1426ca6ff861da6cad36",
+    "test_count": 747
+  },
+  {
+    "full_name": "crytic/slither",
+    "commit": "5e78b88c0235885aa0a3f0ac3124d5eace3f1c40",
+    "test_count": 293
+  },
+  {
+    "full_name": "containers/podman-compose",
+    "commit": "8156ab4bc9fc90a10f81242c81136155973e165a",
+    "test_count": 339
+  },
+  {
+    "full_name": "python-websockets/websockets",
+    "commit": "ff4869ba468129f3e85b08c2a8a03ec45cf26537",
+    "test_count": 1692
+  },
+  {
+    "full_name": "NewFuture/DDNS",
+    "commit": "e2e055ef6e05a0acce90491cc3a5b81429107a0e",
+    "test_count": 912
+  },
+  {
+    "full_name": "sooperset/mcp-atlassian",
+    "commit": "562f925bc68859cbeab3617c790745bfe012c2ef",
+    "test_count": 2068
+  },
+  {
+    "full_name": "mckinsey/vizro",
+    "commit": "1926878ad5ec87fc70b175d7ed0ca2e31b1c99ed",
+    "test_count": 1195
+  },
+  {
+    "full_name": "bruin-data/ingestr",
+    "commit": "1a980e3752c5807be01801758887f8ff1518c56f",
+    "test_count": 19
+  },
+  {
+    "full_name": "django-oauth/django-oauth-toolkit",
+    "commit": "74b10062939ba9edc8f6414c887fff7630372d26",
+    "test_count": 532
+  },
+  {
+    "full_name": "copier-org/copier",
+    "commit": "454ec4244132bce478e60c4707ee418312ca8922",
+    "test_count": 373
+  },
+  {
+    "full_name": "anthropics/anthropic-sdk-python",
+    "commit": "d2f6543ee7995adcae74666a5d37b3d9743debfe",
+    "test_count": 2275
+  },
+  {
+    "full_name": "supabase/supabase-py",
+    "commit": "6f522d35aa94e4a6171cf84931d13e0bbae2ffba",
+    "test_count": 615
+  },
+  {
+    "full_name": "hitsz-ids/synthetic-data-generator",
+    "commit": "f3684582b2f490f50f85f8ffc8d619a7777aed67",
+    "test_count": 133
+  },
+  {
+    "full_name": "testcontainers/testcontainers-python",
+    "commit": "1571ff2a5e9786eb8d3ec03483b4c90ac9b67ed6",
+    "test_count": 380
+  },
+  {
+    "full_name": "Donkie/Spoolman",
+    "commit": "eafbc64937b30993a0d9cc790820eb1db9e44d51",
+    "test_count": 149
+  },
+  {
+    "full_name": "pycontribs/jira",
+    "commit": "bf7306b8b3905c91f97401eaae61d04827e1c309",
+    "test_count": 215
+  },
+  {
+    "full_name": "Cloud-CV/EvalAI",
+    "commit": "1c596071d00932434d7827b5af2c18039101903a",
+    "test_count": 1584
+  },
+  {
+    "full_name": "crystaldba/postgres-mcp",
+    "commit": "07eb329c8c48e49640e0d1b5b35465d4d024c3ee",
+    "test_count": 180
+  },
+  {
+    "full_name": "karlicoss/promnesia",
+    "commit": "5136f0aa3e7a726da477a976644faa0be2509dc1",
+    "test_count": 88
+  },
+  {
+    "full_name": "microsoft/markitdown",
+    "commit": "e144e0a2be95b34df17433bac904e635f2c5e551",
+    "test_count": 159
+  },
+  {
+    "full_name": "trailofbits/algo",
+    "commit": "f6931db17043545b03b602b038f746b66594b1e7",
+    "test_count": 129
+  },
+  {
+    "full_name": "jhao104/proxy_pool",
+    "commit": "9cc0cad4c47e84e34aaec2eead099421960dcd07",
+    "test_count": 228
+  },
+  {
+    "full_name": "nginx-proxy/nginx-proxy",
+    "commit": "a64c037f893b22489607661f2534d0ed15c7a8f5",
+    "test_count": 293
+  },
+  {
+    "full_name": "idank/explainshell",
+    "commit": "e961c8763a472139c9c5d22e62071946af9bdb48",
+    "test_count": 558
+  },
+  {
+    "full_name": "coderamp-labs/gitingest",
+    "commit": "4e259a02fe72115bee538271622f1234a81c8e1a",
+    "test_count": 60
+  },
+  {
+    "full_name": "alliander-opensource/weather-provider-api",
+    "commit": "70f5d3c9dbc1996182ffbc3da3c41d5b4c058ae8",
+    "test_count": 83
+  },
+  {
+    "full_name": "resend/resend-python",
+    "commit": "fbc4223ce5c17bb1ff481c5e53740c45511ebfd2",
+    "test_count": 638
+  },
+  {
+    "full_name": "opengisch/pum",
+    "commit": "5b458a54044ba9a8781246fa06aa1c7ffe7b8d2b",
+    "test_count": 195
+  },
+  {
+    "full_name": "JonBunator/Enterr",
+    "commit": "3fa9bee69157e7ec97c7f8c460890e9b398bce88",
+    "test_count": 34
+  },
+  {
+    "full_name": "yihong0618/bilingual_book_maker",
+    "commit": "3f7fc1e21687146e7e3de1d6facdb56960b993a0",
+    "test_count": 2013
+  },
+  {
+    "full_name": "kittinan/spotify-github-profile",
+    "commit": "0f605fac8dbaac17000b40c6bb8df7c3b89839db",
+    "test_count": 83
+  },
+  {
+    "full_name": "NVIDIA-NeMo/RL",
+    "commit": "b03da0f469cdb2882bda83c0f04317c6159ed266",
+    "test_count": 5811
+  },
+  {
+    "full_name": "sgl-project/sglang-jax",
+    "commit": "dc84c17125c2a939db83f9487fcd3bb947972ac0",
+    "test_count": 2233
+  },
+  {
+    "full_name": "NovaSky-AI/SkyRL",
+    "commit": "53b11553a3e1ea6b4156fdc36d0322823b679270",
+    "test_count": 2002
+  },
+  {
+    "full_name": "devopness/devopness",
+    "commit": "ea00b955177d41a1bad00b0617519caca4f675bd",
+    "test_count": 84
+  },
+  {
+    "full_name": "grycap/im",
+    "commit": "0960054a55af76583c3a6ac10edf0a10d10932aa",
+    "test_count": 69
+  },
+  {
+    "full_name": "tensorflow/model-optimization",
+    "commit": "38b201c19adc3160fee6fc0cbf45b664264bc9c0",
+    "test_count": 744
+  },
+  {
+    "full_name": "co-me-tokens/CoMe",
+    "commit": "5c7cfbc14da37f5dbb991e3a6f9e2c4a5efb8833",
+    "test_count": 96
+  },
+  {
+    "full_name": "observatorycontrolsystem/observation-portal",
+    "commit": "31c2ddd6ac5a2a842f22b838fc41ffdbf0e9c6c8",
+    "test_count": 593
+  },
+  {
+    "full_name": "pathintegral-institute/mcpm.sh",
+    "commit": "6a92e54c748766973add4b8c153fcc85738d2d89",
+    "test_count": 298
+  },
+  {
+    "full_name": "sgl-project/SpecForge",
+    "commit": "ed64d275bac8a48e126adb2827368603566a3029",
+    "test_count": 1258
+  },
+  {
+    "full_name": "perplexityai/perplexity-py",
+    "commit": "299016a3f057dda9f50986ed72e5534559d3272e",
+    "test_count": 391
+  },
+  {
+    "full_name": "anthropics/claude-quickstarts",
+    "commit": "8826387af1d23280996f0a0892e0cfd764becb57",
+    "test_count": 255
+  },
+  {
+    "full_name": "zscole/gru",
+    "commit": "67c9b6fff71ccbca275686dd955923ef00da8f1d",
+    "test_count": 776
+  },
+  {
+    "full_name": "Nikita-Filonov/ai-review",
+    "commit": "e3e19d6d06c4ee6951c7a132d2a1090f8b04a947",
+    "test_count": 723
+  },
+  {
+    "full_name": "jaehyeon-kim/flink-demos",
+    "commit": "fe228c3cfe15dcc1248d9b828e49e201c5297187",
+    "test_count": 33
+  },
+  {
+    "full_name": "thenewboston-developers/thenewboston-Backend",
+    "commit": "9ff7311bb043951a6cb7ffd3419bfde2b20cc1db",
+    "test_count": 80
+  },
+  {
+    "full_name": "Nitrokey/pynitrokey",
+    "commit": "0f3070d52cd5652e439820dee04c1964f24d6557",
+    "test_count": 46
+  },
+  {
+    "full_name": "google/nsscache",
+    "commit": "e0f2701a92bcec248e8c27a982120f8a983a6873",
+    "test_count": 307
+  },
+  {
+    "full_name": "netneurolab/netneurotools",
+    "commit": "49f83c023022ab606581cb10aec6a6282a306c48",
+    "test_count": 68
+  },
+  {
+    "full_name": "rfsbraz/deleterr",
+    "commit": "b64a08ac4e97d3a8a041814a1f13484c20bd3982",
+    "test_count": 862
+  },
+  {
+    "full_name": "nutti/fake-bpy-module",
+    "commit": "eea267aaca080e05114e2b8158ae9831db274c52",
+    "test_count": 105
+  },
+  {
+    "full_name": "modelscope/AgentJet",
+    "commit": "25118bbcb314e0da898bbc0043a1bf4ab74eade7",
+    "test_count": 69
+  },
+  {
+    "full_name": "AsyncFuncAI/deepwiki-open",
+    "commit": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+    "test_count": 83
+  },
+  {
+    "full_name": "insistence/RuoYi-Vue3-FastAPI",
+    "commit": "726883f68ad21450ae47120d270895d9a5a9d69e",
+    "test_count": 1273
+  },
+  {
+    "full_name": "huggingface/transformers",
+    "commit": "031cfc589b66af52d7c14a5d141deb0ca6a0e6f1",
+    "test_count": 13892
+  },
+  {
+    "full_name": "IFRCGo/go-api",
+    "commit": "bfeec0513ab176ffd83312c44f361ba404071a7e",
+    "test_count": 291
+  },
+  {
+    "full_name": "BerriAI/litellm",
+    "commit": "a8979fe05466346d78ab4573c8a61b53a4dd9cf6",
+    "test_count": 50457
+  },
+  {
+    "full_name": "GoogleCloudPlatform/gcpdiag",
+    "commit": "21d367499fe30cac251ca5d6dcc549c1dc7eab03",
+    "test_count": 1338
+  },
+  {
+    "full_name": "Azure/azure-iot-ops-cli-extension",
+    "commit": "6541bb25f3bcba462d4eb8e9249de5a7c074dcd5",
+    "test_count": 1187
+  },
+  {
+    "full_name": "TencentBlueKing/blueking-apigateway",
+    "commit": "87bc689a92cde4b04882caa1579162d3e5d66cc8",
+    "test_count": 3170
+  },
+  {
+    "full_name": "gip-inclusion/les-emplois",
+    "commit": "816cacbea2ed5986b6e424a5b497419a3c4b18c8",
+    "test_count": 3211
+  },
+  {
+    "full_name": "meta-pytorch/torchrec",
+    "commit": "b30d3af09c9bcd9e103fdd8e5c486d8f71f09ee9",
+    "test_count": 2894
+  },
+  {
+    "full_name": "nomadkaraoke/karaoke-gen",
+    "commit": "ecd114c6e3385f0f59ee27b7bbb8b8247335fa92",
+    "test_count": 6481
+  },
+  {
+    "full_name": "m0wer/joinmarket-ng",
+    "commit": "a54d74fd0b8aa2e347aef5455fa014fce8c2fbe1",
+    "test_count": 6028
+  },
+  {
+    "full_name": "MemTensor/MemOS",
+    "commit": "de8069428a9247bfa7a3d35f59a9b39fa8f231d2",
+    "test_count": 932
+  },
+  {
+    "full_name": "OpenDCAI/DataFlow",
+    "commit": "d70f9ef30a7da5dc9f0684c9abc3ec90d8332313",
+    "test_count": 88
+  },
+  {
+    "full_name": "shotgun-sh/shotgun",
+    "commit": "4d344d5a46aafc815de441ff670d4131187f33e6",
+    "test_count": 2498
+  },
+  {
+    "full_name": "onyx-dot-app/onyx",
+    "commit": "f4b2f659adf7b496df0e3a8e2ac0a703e405ba19",
+    "test_count": 11582
+  },
+  {
+    "full_name": "chopratejas/headroom",
+    "commit": "35b11564c6217c358094732618d21eb74503aa47",
+    "test_count": 11658
+  },
+  {
+    "full_name": "GoogleCloudPlatform/ramble",
+    "commit": "9ac5894ee31d00dcdd07382f84114adfe3996cb3",
+    "test_count": 197
+  },
+  {
+    "full_name": "scylladb/scylla-cluster-tests",
+    "commit": "4def6789787c4c5372551d9f747f88bbbafef708",
+    "test_count": 3406
+  },
+  {
+    "full_name": "NikolasMarkou/dl_techniques",
+    "commit": "31a3857c42fd5ec7745255610128eded69f1d0e0",
+    "test_count": 22024
+  },
+  {
+    "full_name": "TencentBlueKing/blueking-dbm",
+    "commit": "ab940a987ca216c6af59a4fdbe7506e74d0c0c2c",
+    "test_count": 3271
+  },
+  {
+    "full_name": "TencentBlueKing/bk-lite",
+    "commit": "c7fd93742540866a9a3946d756d012bfdcefaf0c",
+    "test_count": 26424
+  }
+]

@@ -1,0 +1,11 @@
+# OpenAI-compatible LLM client
+openai==2.53.0
+
+# Explicitly used to configure LLM request timeouts
+httpx==0.28.1
+
+# Docker sandbox management
+docker==7.2.0
+
+# Requirement, version, and platform constraint parsing
+packaging==26.3
