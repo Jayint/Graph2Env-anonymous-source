@@ -50,7 +50,17 @@ Exit code 0 indicates builder success, 1 indicates unsuccessful construction, an
 
 ## Outputs
 
-The output directory contains `setup.sh`, `final_depgraph.json`, `runtime_handoff.json`, `react_trace.json`, `token_usage.json`, conversation history and execution logs when emitted. Inspect the trace and runtime handoff alongside the setup script.
+The output directory contains `setup.sh`, `final_depgraph.json`, `runtime_handoff.json`, `react_trace.json`, `token_usage.json`, conversation history and execution logs when emitted. Successful construction also exports a `Dockerfile` and, when runtime services are needed, `runtime-entrypoint.sh`. Inspect the trace and runtime handoff alongside the setup script.
+
+To build the image from the same local repository checkout, run:
+
+```bash
+docker build --build-context graph2env=outputs/single \
+  -f outputs/single/Dockerfile -t graph2env-local \
+  /absolute/path/to/target-repository
+```
+
+The named `graph2env` build context supplies the generated setup and runtime files; the main build context supplies the target repository. Build from the same checkout used for construction.
 
 ## Code map
 

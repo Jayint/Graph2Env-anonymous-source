@@ -18,6 +18,7 @@ for value in (str(ROOT), str(ROOT / "src")):
 from httpx import Timeout
 from openai import OpenAI
 from src.agent.engine import run_react_builder
+from src.dockerfile_export import export_dockerfile
 from src.envstate.base_image_selection import BaseImageChoice, choose_base_image
 from src.envstate.runtime_base import resolve_runtime_base
 from src.envstate.env_classifier import make_construction_classifier
@@ -163,6 +164,8 @@ def main() -> int:
             Path(args.runtime_out).write_text(
                 json.dumps(result["runtime"], indent=2) + "\n"
             )
+        if result["success"]:
+            export_dockerfile(out, choice.image, sandbox.platform, result["runtime"])
         print(f"REACT E2E: {'PASS' if result['success'] else 'FAIL'}")
         return 0 if result["success"] else 1
     finally:
