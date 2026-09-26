@@ -14,7 +14,7 @@ def main():
         for line in checksums.read_text().splitlines():
             expected, name = line.split('  ', 1)
             assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected, name
-    for name, expected_size in [('ratbench100.json', 100), ('envbench100.json', 100)]:
+    for name, expected_size in [('graph2env200.json', 200)]:
         rows = json.loads((ROOT / 'datasets' / name).read_text())
         assert len(rows) == expected_size, name
         assert len({r['full_name'] for r in rows}) == len(rows), name

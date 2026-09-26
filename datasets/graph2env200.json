@@ -498,5 +498,505 @@
     "full_name": "TencentBlueKing/bk-lite",
     "commit": "c7fd93742540866a9a3946d756d012bfdcefaf0c",
     "test_count": 26424
+  },
+  {
+    "full_name": "markqvist/reticulum",
+    "commit": "6ded42edd7ae203e5a565cb70138c2d7b4b58b5b",
+    "test_count": 68
+  },
+  {
+    "full_name": "brightway-lca/brightway2-io",
+    "commit": "e315f08801fc928bc586f0004b07cf9d651b567d",
+    "test_count": 199
+  },
+  {
+    "full_name": "lightkurve/lightkurve",
+    "commit": "a8f26dfa8196e99d9bf93f71d51ad02cbcd826ea",
+    "test_count": 429
+  },
+  {
+    "full_name": "censys/censys-python",
+    "commit": "d5533d17175561528757245784b79c41b0578dfc",
+    "test_count": 450
+  },
+  {
+    "full_name": "biothings/biothings.api",
+    "commit": "6573562773ed66b9428aead1ba7ac187005bb031",
+    "test_count": 220
+  },
+  {
+    "full_name": "pytest-dev/pytest-xdist",
+    "commit": "c7b4f6114479d4053f0ef8411ed5e0a410b207f4",
+    "test_count": 257
+  },
+  {
+    "full_name": "pypa/distutils",
+    "commit": "0de29d3545dd3bf72c7e64bf8a8e53eac2ee50e0",
+    "test_count": null
+  },
+  {
+    "full_name": "datamol-io/datamol",
+    "commit": "0312388b956e2b4eeb72d791167cfdb873c7beab",
+    "test_count": 282
+  },
+  {
+    "full_name": "facebookresearch/hydra",
+    "commit": "2e682d84e789d82dd11ab1f329f2dd1966fa6b54",
+    "test_count": 2615
+  },
+  {
+    "full_name": "avaiga/taipy-core",
+    "commit": "62f0d8521cbb80ae13654c53620ddc856ba86d33",
+    "test_count": 1241
+  },
+  {
+    "full_name": "karlicoss/hpi",
+    "commit": "35dd5d82a0e399f684fb3d09763bab44146927fc",
+    "test_count": 147
+  },
+  {
+    "full_name": "folio-fse/folio_migration_tools",
+    "commit": "4e994d26b7630d1dd994edf641759ca3f4dc1f28",
+    "test_count": 450
+  },
+  {
+    "full_name": "spacetelescope/pysiaf",
+    "commit": "4395e6b05a000853a26bc594854f299c73f198e7",
+    "test_count": 32
+  },
+  {
+    "full_name": "uploadcare/pyuploadcare",
+    "commit": "114d177d479c55251c2cce9c401011903fe9a66b",
+    "test_count": 267
+  },
+  {
+    "full_name": "microsoft/torchgeo",
+    "commit": "f2e17887c9f1ec32968fda21fbdcc049164ee70c",
+    "test_count": null
+  },
+  {
+    "full_name": "jageo/lobsterpy",
+    "commit": "55d8d2e119aa1147166994d57fbdbe10931cc748",
+    "test_count": 135
+  },
+  {
+    "full_name": "rstcheck/rstcheck",
+    "commit": "b8ddb006f1f49a9bdaf40e45f0bc0b070f460513",
+    "test_count": 62
+  },
+  {
+    "full_name": "marimo-team/marimo",
+    "commit": "537b23093bb75afd57b2c1f1d2f5cd528a08fc66",
+    "test_count": 1087
+  },
+  {
+    "full_name": "scitools/iris-grib",
+    "commit": "e6e3d5ac1d90b8851b9625a2b3df2af1a14f168f",
+    "test_count": 581
+  },
+  {
+    "full_name": "intake/intake",
+    "commit": "7cc9d879f2f0de65552681f2055ed1e3367bc6da",
+    "test_count": 688
+  },
+  {
+    "full_name": "materialsvirtuallab/monty",
+    "commit": "0c4abd3f3256696be8aeaaf9e0c60d21faa2e476",
+    "test_count": 127
+  },
+  {
+    "full_name": "microsoftgraph/msgraph-sdk-python-core",
+    "commit": "e36c17424c9d443bdfeafc32f32682529ce25f95",
+    "test_count": 26
+  },
+  {
+    "full_name": "Quantum-Accelerators/quacc",
+    "commit": "f6bc96ca8f169e2474a09e96cb84f2dc14227ff2",
+    "test_count": 289
+  },
+  {
+    "full_name": "jacebrowning/memegen",
+    "commit": "40d58684d5eb073dbb1ad147a70ab31ca09b4c6f",
+    "test_count": 254
+  },
+  {
+    "full_name": "datactive/bigbang",
+    "commit": "42568c20e318bd351a1d42acda21895960646133",
+    "test_count": 73
+  },
+  {
+    "full_name": "fonttools/fontbakery",
+    "commit": "a5177215f7c8e168416771637af17ae8935f273f",
+    "test_count": 918
+  },
+  {
+    "full_name": "online-ml/river",
+    "commit": "6995f1522a9136fd3982890afac5c4a178e4cd57",
+    "test_count": 3432
+  },
+  {
+    "full_name": "ucoproject/uco",
+    "commit": "9f168313453bb577141248e3968198bc00e7d39b",
+    "test_count": 46
+  },
+  {
+    "full_name": "diefenbach/django-lfs",
+    "commit": "3e6e96ec223a8184ae84fdeabd984745ea29e27f",
+    "test_count": 484
+  },
+  {
+    "full_name": "fhempy/fhempy",
+    "commit": "2c61a608c664b25c7b5ecdcba6195b521e7bc74a",
+    "test_count": 81
+  },
+  {
+    "full_name": "stan-dev/cmdstanpy",
+    "commit": "aa7555b7f90408cec429ed1370f4abd488532feb",
+    "test_count": 286
+  },
+  {
+    "full_name": "mollie/mollie-api-python",
+    "commit": "957b44fddb9d4d833508120022c7f291f5ca8d06",
+    "test_count": 264
+  },
+  {
+    "full_name": "jazzband/tablib",
+    "commit": "2121267b45fe54b47b9dd4c74c203bf82eff8b97",
+    "test_count": 157
+  },
+  {
+    "full_name": "nixtla/neuralforecast",
+    "commit": "90b6fd06dc59fa3f320c57f361d4ca8379aa6be7",
+    "test_count": null
+  },
+  {
+    "full_name": "hhursev/recipe-scrapers",
+    "commit": "4788af40bf47dba580b069d6ffc02fb071e967c1",
+    "test_count": 184
+  },
+  {
+    "full_name": "columnflow/columnflow",
+    "commit": "ad04770a757f5031229ea1b47314cef6de5c9edf",
+    "test_count": 72
+  },
+  {
+    "full_name": "johnsnowlabs/nlu",
+    "commit": "506860e546076b353969b5a3216c05d080ad923e",
+    "test_count": 252
+  },
+  {
+    "full_name": "wpi-lnl/lnldb",
+    "commit": "6384c05c867ef1e34f80c3c38f5fabdc3f35d28b",
+    "test_count": 317
+  },
+  {
+    "full_name": "jackdewinter/pymarkdown",
+    "commit": "446fbbf251f5daa150b967b90c72216aeddb73fc",
+    "test_count": 6930
+  },
+  {
+    "full_name": "librephotos/librephotos",
+    "commit": "0a9e63377333dc4947767fbac81055a07ccf5341",
+    "test_count": 125
+  },
+  {
+    "full_name": "yourlabs/django-autocomplete-light",
+    "commit": "45a9ff6e95e58348b90b3c1f01f01cb6ca10b4d3",
+    "test_count": 84
+  },
+  {
+    "full_name": "cityofzion/neo3-boa",
+    "commit": "58d33fdcbb67cc6d4f5efefced4ef0a382346ad4",
+    "test_count": 2102
+  },
+  {
+    "full_name": "pastas/pastas",
+    "commit": "eeb8e2b33783ddb2031112625b4552a4c3232428",
+    "test_count": 173
+  },
+  {
+    "full_name": "miurahr/aqtinstall",
+    "commit": "ac7da38299fc56ae4818ff1c19b96e4e2d6f36c8",
+    "test_count": 367
+  },
+  {
+    "full_name": "googlecloudplatform/gsutil",
+    "commit": "767984ddf846c5216a0f8f00a580ce72c15c978e",
+    "test_count": 1575
+  },
+  {
+    "full_name": "sassoftware/python-sasctl",
+    "commit": "ebd0a63804ee752404e118762ab4bceb67705641",
+    "test_count": 610
+  },
+  {
+    "full_name": "conan-io/conan-package-tools",
+    "commit": "decb63a1a470a5ffd5adf3ae6074b740f086aef2",
+    "test_count": 127
+  },
+  {
+    "full_name": "catalystneuro/roiextractors",
+    "commit": "4d98f317aab93c0a7069e7f07292ece13039a8f9",
+    "test_count": 475
+  },
+  {
+    "full_name": "sublimelinter/sublimelinter",
+    "commit": "621ba9bf8d4ed4084902b8840bb1ae7d31e6a8fb",
+    "test_count": 1642
+  },
+  {
+    "full_name": "uriyyo/fastapi-pagination",
+    "commit": "e00623920b1cc8b3d20eac2a96fb81343091569a",
+    "test_count": 1732
+  },
+  {
+    "full_name": "simplistix/testfixtures",
+    "commit": "608b0532dbbeb6530d9dacce3a912bcc1dc40a87",
+    "test_count": 1467
+  },
+  {
+    "full_name": "lhotse-speech/lhotse",
+    "commit": "f9fb181cbb733a95ebc2eda130d4db5b5a802677",
+    "test_count": 1974
+  },
+  {
+    "full_name": "eastsidepreparatoryschool/epschedule",
+    "commit": "76cc6bec7d37dedae67c6926142ae37cbf15194a",
+    "test_count": 13
+  },
+  {
+    "full_name": "apiflask/apiflask",
+    "commit": "d71d64a3e4b18ce74129de103e364a321ee33b66",
+    "test_count": 376
+  },
+  {
+    "full_name": "pretalx/pretalx",
+    "commit": "64e72619ce413bbcbbe5b838d0bc8cf690d1c3a8",
+    "test_count": 1391
+  },
+  {
+    "full_name": "python-markdown/markdown",
+    "commit": "33359faa385f59b84cd87df5f4b0996055a482e2",
+    "test_count": 1149
+  },
+  {
+    "full_name": "wilcoxjay/mypyvy",
+    "commit": "3a055dfad3d13fb35b6125ab6f43fa6ea4493b5f",
+    "test_count": 8
+  },
+  {
+    "full_name": "python-poetry/poetry",
+    "commit": "5bab98c9500f1050c6bb6adfb55580a23173f18d",
+    "test_count": 1695
+  },
+  {
+    "full_name": "convexengineering/gpkit",
+    "commit": "bea1234606649dd11a2e59b610b2ba8b8c8adfae",
+    "test_count": 286
+  },
+  {
+    "full_name": "peering-manager/peering-manager",
+    "commit": "4dcdd6a378d82329c1375fcca140d8ff159e93b6",
+    "test_count": 882
+  },
+  {
+    "full_name": "numba/llvmlite",
+    "commit": "5c181ff3af1de04d4bd70fb0ee287aa81d1fe198",
+    "test_count": 380
+  },
+  {
+    "full_name": "dtmilano/androidviewclient",
+    "commit": "8738d3af40921b861f25780b4a92b5b6d4990af1",
+    "test_count": 320
+  },
+  {
+    "full_name": "qiboteam/qibocal",
+    "commit": "0625d904216ddbcfe5a12b46b31e84f04de9285e",
+    "test_count": 1134
+  },
+  {
+    "full_name": "Modalities/modalities",
+    "commit": "4aa2e88efe13c3eaab4c6b425fdb82caf0d2a443",
+    "test_count": 118
+  },
+  {
+    "full_name": "mad-lab-fau/biopsykit",
+    "commit": "2ad99fba5f55328109c72bd3cbb72ba2444da078",
+    "test_count": 1434
+  },
+  {
+    "full_name": "neurogym/neurogym",
+    "commit": "ee0a140cf2c6f14f36f524997c269cf110afc73d",
+    "test_count": null
+  },
+  {
+    "full_name": "mdolab/openaerostruct",
+    "commit": "0448bff067856093cdcec4bc8c271ecd4339a36d",
+    "test_count": 182
+  },
+  {
+    "full_name": "oarriaga/paz",
+    "commit": "cede0aee7b0ce78357f884b916f96803f1cea202",
+    "test_count": 591
+  },
+  {
+    "full_name": "ellmetha/django-machina",
+    "commit": "e34c8ba4f1ba13f6f76dfcc20f276d2affc7c416",
+    "test_count": 462
+  },
+  {
+    "full_name": "zostera/django-bootstrap3",
+    "commit": "a6565be14ed0edff98b84d2874dc709cbecb1118",
+    "test_count": 64
+  },
+  {
+    "full_name": "timbrel/gitsavvy",
+    "commit": "da8f3ca24b2cdac43fe4d6f1d7a2c47d02d04b2a",
+    "test_count": 383
+  },
+  {
+    "full_name": "mne-tools/mne-lsl",
+    "commit": "03d5988ea6d940840e418b91f0d756134515e193",
+    "test_count": 168
+  },
+  {
+    "full_name": "iss-mimic/mimic",
+    "commit": "d3d1b7cbbca38dd039ae47223517587758c1a9d5",
+    "test_count": 3
+  },
+  {
+    "full_name": "benadida/helios-server",
+    "commit": "c7ed0608e2cdfc75bf323a834f0ca579e6273e34",
+    "test_count": 51
+  },
+  {
+    "full_name": "piccolo-orm/piccolo",
+    "commit": "17c0a8859c19da48b33a19bb5a15d44d91bb6278",
+    "test_count": 823
+  },
+  {
+    "full_name": "skrub-data/skrub",
+    "commit": "0d69d97129aa638167e1e721686acb066daed007",
+    "test_count": null
+  },
+  {
+    "full_name": "ibm/ibmi-bob",
+    "commit": "d741050ea70c32474d58a5f0897ab0056d9a611e",
+    "test_count": 17
+  },
+  {
+    "full_name": "jaraco/keyring",
+    "commit": "afe0abd3165da8fd68d2812f483ba429008442d5",
+    "test_count": 242
+  },
+  {
+    "full_name": "centre-for-humanities-computing/dacy",
+    "commit": "d990deb52cb56510d299aaf5e31c79e964e3aaae",
+    "test_count": 16
+  },
+  {
+    "full_name": "pajbot/pajbot",
+    "commit": "a0d969a570c7bd06fcf1829b6f3465c1b250f0a3",
+    "test_count": 89
+  },
+  {
+    "full_name": "theislab/cellrank",
+    "commit": "6074913214f087301dd49bd9ef581c20ec56e759",
+    "test_count": null
+  },
+  {
+    "full_name": "basxsoftwareassociation/basxconnect",
+    "commit": "a616dd61bb6012de1668ba0e3c289924e69cff68",
+    "test_count": 18
+  },
+  {
+    "full_name": "scylladb/sphinx-scylladb-theme",
+    "commit": "4e3917945c5c194a7119cf10629f35664b451d61",
+    "test_count": 35
+  },
+  {
+    "full_name": "revoxhere/duino-coin",
+    "commit": "2d3d3dd61982ddc6fc6f9933d3ba4d2b60447259",
+    "test_count": 130
+  },
+  {
+    "full_name": "mpmath/mpmath",
+    "commit": "ee1a8102665a2fba0faba6c2c0f0a064de92b522",
+    "test_count": 2318
+  },
+  {
+    "full_name": "adamchainz/django-mysql",
+    "commit": "d6f0500565b1e4bc94044ca061e745cada955c11",
+    "test_count": 739
+  },
+  {
+    "full_name": "python-control/python-control",
+    "commit": "dbc998dedf8e18dcdcc15acf15303f22adf9368f",
+    "test_count": 3625
+  },
+  {
+    "full_name": "beeware/briefcase",
+    "commit": "448b58bcf928ae4e933fa342795785fb3211cd17",
+    "test_count": 3062
+  },
+  {
+    "full_name": "ecds/readux",
+    "commit": "3eaf18edb9bcb0858507dcdb9295bc367e1ff8fb",
+    "test_count": 320
+  },
+  {
+    "full_name": "The-OpenROAD-Project/OpenLane",
+    "commit": "e0d2e618a8834e733d28dfcc02fa166941be7e71",
+    "test_count": 79
+  },
+  {
+    "full_name": "Mirascope/mirascope",
+    "commit": "cd6bf0a92d2dae975081d6da8281097abb5810a1",
+    "test_count": 326
+  },
+  {
+    "full_name": "wireless-innovation-forum/spectrum-access-system",
+    "commit": "928c3150adf7b31e53a96b695bf1fbdd3284ecb2",
+    "test_count": null
+  },
+  {
+    "full_name": "guardrails-ai/guardrails",
+    "commit": "d85ea96e123850391e2667864f148639dc335b9e",
+    "test_count": 568
+  },
+  {
+    "full_name": "menpo/menpo",
+    "commit": "bf08b913bb84ba5f5323e9b7d372a8349b9d1fa8",
+    "test_count": 819
+  },
+  {
+    "full_name": "benthayer/git-gud",
+    "commit": "d00a0405c88f212cf448cad6729a7cfda369f420",
+    "test_count": 172
+  },
+  {
+    "full_name": "idaholab/civet",
+    "commit": "282f2cb1c72197cd34d4a38d396720bfaa6d7fc5",
+    "test_count": 462
+  },
+  {
+    "full_name": "valory-xyz/trader",
+    "commit": "64fa99dd872a157bbd9eef436bf8396e8f5d34d1",
+    "test_count": null
+  },
+  {
+    "full_name": "open-cas/open-cas-linux",
+    "commit": "ba5bdf4796bca9995033584473da0075d7aef83d",
+    "test_count": 6197
+  },
+  {
+    "full_name": "gymrek-lab/TRTools",
+    "commit": "99d7fb4ef0a420e4a689bafecba5189127d657ba",
+    "test_count": 233
+  },
+  {
+    "full_name": "google/trax",
+    "commit": "14514794eb03247c3a4426032607e1f7547e6f63",
+    "test_count": 3492
   }
 ]

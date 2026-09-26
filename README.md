@@ -30,7 +30,7 @@ The single-repository script reads environment variables and does not load `.env
 
 ## Build one repository
 
-Clone the target repository and check out its intended commit first. The dataset manifests provide repository names and commit pins; the builder operates on the checkout supplied to it and does not select or pin a dataset row automatically.
+Clone the target repository and check out its intended commit first. The dataset manifest `datasets/graph2env200.json` provides 200 repository names and commit pins; the builder operates on the checkout supplied to it and does not select or pin a dataset row automatically.
 
 ```bash
 docker info
