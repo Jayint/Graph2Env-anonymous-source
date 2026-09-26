@@ -3259,7 +3259,7 @@ class Synthesizer:
         return saw_component
     
     def is_test_command(self, command):
-        """判断指令是否是测试命令。"""
+        """Determine whether a command runs tests."""
         if not command or not command.strip():
             return False
 
@@ -4045,7 +4045,7 @@ class Synthesizer:
         return bool(re.match(pip_install_pattern, normalized))
     
     def _is_setup_command(self, command):
-        """判断指令是否是环境配置相关的 setup/build 命令"""
+        """Determine whether a command performs environment setup or build configuration."""
         setup_keywords = [
             # Python
             'pip install', 'pip3 install', 'poetry install', 'uv pip', 'uv install',

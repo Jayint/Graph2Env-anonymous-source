@@ -105,7 +105,7 @@ class Sandbox:
         self.docker_client_timeout_seconds = docker_client_timeout_seconds
         self.current_image = base_image
         self.container = None
-        self.last_success_image = None  # 记录上一次成功状态的镜像
+        self.last_success_image = None  # Track the image from the last successful state.
         self.snapshot_image_ids = set()
         # Semantic build checkpoints are independent from execute()'s rolling
         # last-success snapshot.  They remain addressable until explicitly
@@ -571,15 +571,15 @@ class Sandbox:
                 f"{output}"
             )
         
-        # 判断是否为"信息性退出"（非真正错误）
+        # Check for an informational exit rather than an actual error.
         is_informational_exit = self._is_informational_exit(exit_code, output)
         
-        # 检测输出中是否有测试失败信号（用于 Observation 前缀注入）
+        # Detect test failure signals in the output for the Observation prefix.
         test_fail_prefix = self._get_test_failure_prefix(exit_code, output)
         truncated_test_prefix = self._get_truncated_test_output_prefix(command)
         
         if exit_code == 0 or is_informational_exit:
-            # Success: 保存当前成功状态
+            # Success: Save the current successful state.
             if is_informational_exit:
                 print(f"Command exited with code {exit_code} (informational, not an error).")
             else:
@@ -591,9 +591,9 @@ class Sandbox:
             self.package_manager_broken_failure_streak = 0
             self._track_runtime_command(command)
             
-            # 优化：只对会对环境产生影响的指令进行 commit
+            # Optimization: commit only commands that change the environment.
             if self._should_commit(command):
-                # 创建新的成功快照
+                # Create a new successful snapshot.
                 previous_snapshot = self.last_success_image
                 success_image = self.container.commit()
                 self._register_snapshot(success_image.id)
@@ -1218,23 +1218,23 @@ class Sandbox:
     
     def _should_commit(self, command):
         """
-        判断指令是否会对环境产生影响，从而决定是否需要 commit。
+        Determine whether a command changes the environment and therefore requires a commit.
         """
-        # 常见的不产生副作用的指令
+        # Common commands without side effects.
         readonly_commands = [
             'ls', 'cat', 'pwd', 'echo', 'env', 'hostname', 'whoami', 
             'head', 'tail', 'grep', 'find', 'du', 'df', 'top', 'ps', 
             'date', 'which', 'type', 'file'
         ]
         
-        # 获取指令的第一个单词
+        # Get the first word of the command.
         first_word = command.strip().split()[0].lower() if command.strip() else ""
         
-        # 如果指令在只读列表中，则不 commit
+        # Skip the commit for commands in the read-only list.
         if first_word in readonly_commands:
             return False
             
-        # 默认需要 commit
+        # Commit by default.
         return True
 
     def _track_runtime_command(self, command):
@@ -1321,14 +1321,14 @@ class Sandbox:
     
     def _is_informational_exit(self, exit_code, output):
         """
-        判断是否为信息性退出（如显示帮助信息），而非真正的错误。
-        测试命令的失败（如测试未通过）不应被视为信息性退出。
+        Determine whether an exit is informational (such as displaying help) rather than an actual error.
+        Test command failures (such as failing tests) must not be treated as informational exits.
         """
-        # Exit code 1-2 通常是参数错误或显示帮助
+        # Exit codes 1-2 usually indicate argument errors or help output.
         if exit_code not in [1, 2]:
             return False
         
-        # 检查输出中是否包含帮助信息的特征
+        # Check the output for signs of help text.
         help_indicators = [
             'Usage:',
             'usage:',
@@ -1339,13 +1339,13 @@ class Sandbox:
             'optional arguments:'
         ]
         
-        # 测试失败的特征（不应被误判为信息性退出）
+        # Test failure indicators (must not be mistaken for informational exits).
         test_failure_indicators = [
             'failures:',
             'errors:',
             'FAILED',
-            'Failed:',        # run_all / TAP 格式：Failed: 3
-            'not ok',         # TAP 协议失败行
+            'Failed:',        # run_all / TAP format: Failed: 3
+            'not ok',         # TAP failure line.
             'Test failed',
             'assertion failed',
             'expected',
@@ -1362,7 +1362,7 @@ class Sandbox:
         
         output_lower = output.lower()
         
-        # 如果包含测试失败特征，则不是信息性退出
+        # An exit with test failure indicators is not informational.
         if any(indicator.lower() in output_lower for indicator in test_failure_indicators):
             return False
         
@@ -1370,14 +1370,14 @@ class Sandbox:
 
     def _get_test_failure_prefix(self, exit_code, output):
         """
-        检测命令输出是否包含测试失败信号。
-        若是，返回注入到 Observation 头部的强制警告；否则返回空字符串。
-        目的：阻止 LLM 以"核心功能通过"为由自我合理化，绕过 No Excuses Rule。
+        Detect test failure signals in command output.
+        If found, return a mandatory warning for the Observation header; otherwise return an empty string.
+        Prevent the LLM from bypassing the No Excuses Rule by claiming that core functionality passed.
         """
         if exit_code == 0:
             return ""
 
-        # TAP 格式失败：run_all 输出的 "Failed: N"
+        # TAP failure format: "Failed: N" in run_all output.
         tap_fail = re.search(r'Failed:\s+([1-9]\d*)', output)
         if tap_fail:
             failed_count = tap_fail.group(1)
@@ -1390,7 +1390,7 @@ class Sandbox:
                 f"to pass if collection succeeds.\n\n"
             )
 
-        # pytest / unittest 格式失败
+        # pytest / unittest failure format.
         pytest_fail = re.search(r'([1-9]\d*) failed', output, re.IGNORECASE)
         if pytest_fail:
             failed_count = pytest_fail.group(1)
@@ -1419,7 +1419,7 @@ class Sandbox:
                 "pytest collection command, not a failed full test run.\n\n"
             )
 
-        # 通用失败关键词。只匹配测试用例行，避免把 "Failed: 0" 当成失败。
+        # Generic failure keywords. Match only test case lines to avoid treating "Failed: 0" as a failure.
         if (
             re.search(r'^\s*(?:FAILED|ERROR)\s+\S+', output, re.MULTILINE)
             or re.search(r'^\s*not ok\b', output, re.IGNORECASE | re.MULTILINE)
@@ -1662,7 +1662,7 @@ class Sandbox:
         return normalized_command.startswith(package_manager_prefixes)
 
     def close(self, keep_alive=False):
-        """关闭容器，可选择保持容器运行以供验证"""
+        """Close the container, optionally leaving it running for validation."""
         for resolver in tuple(getattr(self, "resolver_containers", {}).values()):
             try:
                 self.close_resolver_container(resolver)

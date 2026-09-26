@@ -226,7 +226,7 @@ class ImageSelector:
         """Use LLM to detect the primary language from relevant file contents."""
         available_languages = list(LANGUAGE_HANDLERS.keys())
         prompt = DETECT_LANGUAGE_PROMPT.format(
-            docs=docs[:6000],  # 限制长度，语言检测不需要太多内容
+            docs=docs[:6000],  # Limit input length; language detection needs only a small sample.
             available_languages=", ".join(available_languages)
         )
         try:
@@ -244,7 +244,7 @@ class ImageSelector:
                 lang = match.group(1).strip().lower()
                 if lang in LANGUAGE_HANDLERS:
                     return lang
-                # 尝试常见别名
+                # Try common aliases.
                 aliases = {"js": "javascript", "ts": "typescript", "c++": "c++", "cpp": "c++"}
                 if lang in aliases and aliases[lang] in LANGUAGE_HANDLERS:
                     return aliases[lang]

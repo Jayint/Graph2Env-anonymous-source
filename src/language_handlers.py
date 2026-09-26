@@ -485,9 +485,9 @@ class PHPHandler(LanguageHandler):
         fixed PHP versions that may not match project requirements.
         """
         if platform == "linux":
-            # PHP CLI 镜像（主要选项）- LLM 根据项目 PHP 版本需求选择
+            # PHP CLI images (primary options); the LLM selects based on the project PHP version requirements.
             php_cli_images = [f"php:{v}-cli" for v in ["8.4", "8.3", "8.2", "8.1", "8.0", "7.4"]]
-            # composer 镜像作为备选（已包含 git/zip/unzip，但 PHP 版本固定）
+            # Composer images as fallbacks (include git/zip/unzip, but use a fixed PHP version).
             composer_images = ["composer:2"]
             return php_cli_images + composer_images
         else:
